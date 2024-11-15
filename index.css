@@ -1,3 +1,9 @@
+*{
+  cursor:url(public/cursor.png), auto;
+  
+}
+
+
 .logo-1-icon {
   width: 39.9px;
   position: relative;
@@ -34,11 +40,13 @@
   align-items: flex-start;
   padding: var(--padding-base) 0 0;
 }
-.resume {
+.button a {
   position: relative;
   letter-spacing: 0.02em;
   line-height: 24px;
   font-weight: 600;
+  color: #f5f5f5;
+  text-decoration: none;
 }
 .download-icon {
   width: 20px;
@@ -65,6 +73,14 @@
   font-size: var(--heading-h5-bold-size);
   color: var(--primary-white);
   font-family: var(--heading-h6-semibold);
+}
+
+.button:hover,.button a:hover{
+  background-color: var(--primary-white);
+  border-color: #000;
+  color: #000;
+  cursor:url(public/cursorAct.png), auto;
+
 }
 .container,
 .container-wrapper {
