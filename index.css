@@ -1,6 +1,5 @@
 *{
   cursor:url(public/cursor.png), auto;
-  
 }
 
 
@@ -92,8 +91,9 @@
   overflow: hidden;
   flex-shrink: 0;
   justify-content: space-between;
-  padding: 0 var(--padding-13xl);
+  padding: 0 42px;
   gap: var(--gap-xl);
+  
   text-align: left;
   font-size: 36px;
   color: var(--primary-black);
@@ -102,8 +102,34 @@
 .container-wrapper {
   align-self: stretch;
   justify-content: flex-start;
-  padding: 0 var(--padding-55xl) 23px;
+  padding: 23px 74px 23px;
+  position: absolute;
+  top: 0%;
 }
+@media (max-width: 600px){
+  .container{
+    padding: 0 20px;
+  }
+  .personal{
+    font-size: 28px;
+  }
+  .hero-section{
+    padding: 20px ;
+  }
+  .anujay-goel,
+  .product-designer,
+  .hello-iam{
+    font-size: 30px;
+  }
+}
+
+
+
+
+
+
+
+
 .anujay-goel,
 .hello-iam {
   margin: 0;
@@ -134,9 +160,9 @@
   line-height: 56px;
   font-weight: 800;
   font-family: inherit;
-  color: transparent;
+  color: black;
   display: inline-block;
-  -webkit-text-stroke: 3px #000;
+  text-shadow: #000;
   min-width: 276px;
 }
 .based-in-parent,
@@ -343,7 +369,7 @@
   overflow: hidden;
   align-items: flex-end;
   justify-content: flex-start;
-  padding: 121px 104px 148px 118px;
+  padding: 100px 104px 148px 118px;
   gap: 132px;
 }
 .hero-section-wrapper {
