@@ -2409,21 +2409,7 @@
   }
 }
 @media screen and (max-width: 450px) {
-  .anujay-goel,
-  .hello-iam,
-  .product-designer {
-    font-size: var(--font-size-10xl);
-    line-height: 34px;
-  }
-  .based-in-parent {
-    flex-wrap: wrap;
-  }
-  .hero-section {
-    gap: 33px;
-    padding-left: var(--padding-xl);
-    padding-right: var(--padding-xl);
-    box-sizing: border-box;
-  }
+  
   .my {
     font-size: var(--font-size-10xl);
     line-height: 34px;
@@ -2568,7 +2554,7 @@
   .anujay-goel,
   .hello-iam,
   .product-designer {
-    font-size: var(--font-size-10xl);
+    font-size: 23px;
     line-height: 34px;
   }
   .based-in-parent {
@@ -2579,6 +2565,9 @@
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
     box-sizing: border-box;
+  }
+  .frame-group {
+    gap: 12px;
   }
 
 
