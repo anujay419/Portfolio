@@ -2565,6 +2565,23 @@
     color: var(--primary-white);
     font-family: var(--heading-h6-semibold);
   }
+  .anujay-goel,
+  .hello-iam,
+  .product-designer {
+    font-size: var(--font-size-10xl);
+    line-height: 34px;
+  }
+  .based-in-parent {
+    flex-wrap: wrap;
+  }
+  .hero-section {
+    gap: 33px;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+
+
 }
 /* @media (max-width: 600px){
   .container{
